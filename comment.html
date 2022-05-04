@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>comment</title>
+    <style>
+      h1 {
+        margin-top: 30px;
+        text-align: center;
+      }
+      body {
+        font-size: larger;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">MAX DESIGNS</div>
+        <ul class="nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="#">Comment</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="header">
+      <div class="container">
+        <div>
+          <h1>MAX DESIGNS</h1>
+          <p>
+            Our aim is to produce individuals trained in all areas of modern
+            technology which are UI/UX, Front-end development, Back- end
+            development and some many others in order to move Nigeria forward.
+          </p>
+        </div>
+        <img src="https://traversymedia.com/images/grid.svg" alt="" />
+      </div>
+    </header>
+    <section id="comment-section">
+      <div class="comment-section-container">
+        <div class="NOTES">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi atque
+            molestias repudiandae, tempore hic aut recusandae consequatur
+            reprehenderit! Itaque vel maiores commodi, ratione illum ducimus
+            repudiandae dicta laborum aut accusantium vero inventore alias
+            blanditiis. Magni deserunt eaque ex ipsum voluptatibus odio natus,
+            accusamus excepturi. Totam accusamus, incidunt nesciunt eaque ullam
+            excepturi labore sapiente vitae iste, molestias consequuntur, esse
+            nemo ipsum cum natus obcaecati maxime alias? Debitis nisi architecto
+            eaque ad. We can only grow if we know whether what we are doing is
+            making a positive or negative impact in the society, so as to know
+            if we should keep doing what we are doing or change something. So in
+            the comment section please drop your experiences.
+          </p>
+        </div>
+        <div class="form">
+          <h1>COMMENTS</h1>
+          <form action="" id="commentform">
+            <label for="comment_author" class="required">Your name</label>
+            <input
+              type="text"
+              name="comment_author"
+              id="comment_author"
+              value=""
+              tabindex="1"
+              required="required"
+              placeholder="FULL NAME"
+            />
+
+            <label for="email" class="required">Your email;</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              value=""
+              tabindex="2"
+              required="required"
+              placeholder="EMAIL"
+            />
+
+            <label for="comment" class="required">Your message</label>
+            <textarea
+              name="comment"
+              id="comment"
+              rows="10"
+              tabindex="4"
+              required="required"
+              placeholder="WRITE US A COMMENT"
+            ></textarea>
+
+            <input
+              type="hidden"
+              name="comment_post_ID"
+              value="1"
+              id="comment_post_ID"
+            />
+            <input name="submit" type="submit" value="Submit" id="submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
